@@ -1,0 +1,29 @@
+{
+    "verifySearchSeries" : {
+       "idName" : "searchInputBox",
+       "keyword" : "naagin",
+       "watch" :"WATCH",
+       "playSeries" : "//*[@id=\"__next\"]/div/div[2]/div/div[1]/div[2]/div/div/div[1]/div/a/div/button",
+       "fetchTitle" : "//*[@id=\"__next\"]/div/div[3]/div/div[2]/h1",
+       "tag" : "div",
+       "class" : "slick-list",
+      "isDisplayed" : "//*[@id=\"__next\"]/div/div[5]/div/h2" 
+    },
+
+    "vodChangeAudio" : {
+      "vod" : "WATCH",
+      "hideAd": "mui-style-14i0toa-adInfo mui-style-1ll39hh-hide",
+      "selectGroup":"//button[@aria-label=\"Caption and Audio\"]",
+      "selectAudio":"//*[@aria-selected=\"false\"][1]",
+      "changed" : "English"
+   },
+  
+  
+    "vodChangeVideo": {
+      
+       "selectPanel" : "//button[@aria-label=\"Quality\"]",
+       "selectQuality" : "/html/body/div[1]/div/div[3]/div/div[3]/div[2]/div/div[2]/div/div[5]" ,
+       "resolution" : "Full HD"   
+    } 
+  }
+  
